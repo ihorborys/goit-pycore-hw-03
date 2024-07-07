@@ -16,7 +16,8 @@ def get_days_from_today(date_one: date, date_two: date) -> int:
     except (ValueError, TypeError):
         print("Please, enter data in format: 'YYYY-MM-DD'")
 
-date_one = transform_string_to_date("1988-10-30")
+
+date_one = transform_string_to_date("1987-01-31")
 date_two = datetime.today().date()
 
 print(get_days_from_today(date_one, date_two))
